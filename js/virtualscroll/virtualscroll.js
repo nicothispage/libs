@@ -1,4 +1,4 @@
-var VirtualScroll = (function(document) {
+var VirtualScroll = function() {
 
 	var vs = {};
 
@@ -174,8 +174,7 @@ var VirtualScroll = (function(document) {
 	}
 
 	return vs;
-})(document);
+};
 
 
-
-
+module.exports =  VirtualScroll();
